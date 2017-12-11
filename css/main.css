@@ -21,7 +21,7 @@
 
 .white-box {
   text-align: justify;
-  padding: 2rem 7rem;
+  padding: 1rem 2rem;
   display: inline-block;
 }
 
@@ -41,7 +41,7 @@ body {
 /* Header */
 nav {
   overflow: auto;
-  padding: 1rem 7rem;
+  padding: 1rem 2rem;
 }
 
 nav h2 {
@@ -70,22 +70,27 @@ a {
 .tagline {
   background: rgba(0, 0, 0, 0.3);
   color: #FFFFFF;
-  padding: 5rem 0;
+  font-size: 28px;
+  padding: 3rem 2rem;
 }
 
 .menu-hamburguer {
+  font-size: 25px;
   padding: 10px;
+  display: block;
+}
+
+.menu-option {
   display: none;
 }
 
 /* Sections */
 .presentation {
-  margin-right: 10px;
-  width: 70%;
+  width: 100%;
 }
 
 .contact {
-  width: 25%;
+  width: 100%;
 }
 
 h1, h3, h4 {
@@ -94,10 +99,10 @@ h1, h3, h4 {
 }
 
 .article-container {
-  width: 30%;
+  width: 100%;
   border: 1px solid #566573;
-  margin: 1.1rem;
   text-align: justify;
+  margin: 1rem 0;
 }
 
 img {
@@ -117,4 +122,41 @@ img {
 /* Footer */
 footer {
   padding: 2rem;
+}
+
+@media (min-width: 768px) {
+  .white-box {
+    padding: 1rem 7rem;
+  }
+
+  nav {
+    padding: 1rem 7rem;
+  }
+
+  .tagline {
+    padding: 5rem 7rem;
+  }
+
+  .menu-hamburguer {
+    display: none;
+  }
+
+  .menu-option {
+    display: block;
+  }
+
+  .presentation {
+    margin-right: 10px;
+    width: 60%;
+  }
+
+  .contact {
+    width: 30%;
+  }
+
+  .article-container {
+    width: 30%;
+    margin: 1.1rem;
+  }
+
 }
