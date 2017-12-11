@@ -6,81 +6,91 @@
     <title>Git Tricks</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Ubuntu:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/grid-system.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header>
-      <nav class="page-color">
-        <div class="left">
-          <a href="#"><h2>Git Tricks</h2></a>
+    <header class="container">
+      <nav class="page-color row">
+        <div class="col-sm-12">
+          <div class="col-sm-offset-1 col-sm-2">
+            <a href="#"><h2>Git Tricks</h2></a>
+          </div>
+          <div class="menu-hamburguer col-sm-1">
+            <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+          </div>
+          <ul class="menu-option col-sm-offset-4 col-sm-4">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
         </div>
-        <div class="menu-hamburguer right">
-          <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
-        </div>
-        <ul class="menu-option right">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Documentation</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
       </nav>
-      <div class="background">
-        <div class="tagline">
-          <h1>Learn Git and don't die in the attempt</h1>
+      <div class="background row">
+        <div class="tagline col-sm-12">
+          <h1 class="col-sm-offset-1 col-sm-10">Learn Git and don't die in the attempt</h1>
         </div>
       </div>
     </header>
-    <section class="white-box">
-      <div class="presentation left">
-        <h3>What is that?</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <input class="btn" type="submit" value="Start to read...">
-      </div>
-      <div class="contact right">
-        <h3>Contact me</h3>
-        <p>Git Tricks</p>
-        <p>Lima, Perú</p>
-        <p>(123) 987654321</p>
-        <p>mnpalma.2@gmail.com</p>
+    <section class="white-box row">
+      <div class="col-sm-12">
+        <div class="col-sm-offset-1 col-sm-7">
+          <h3>What is that?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <input class="btn" type="submit" value="Start to read...">
+        </div>
+        <div class="col-sm-offset-1 col-sm-2">
+          <h3>Contact me</h3>
+          <p>Git Tricks</p>
+          <p>Lima, Perú</p>
+          <p>(123) 987654321</p>
+          <p>mnpalma.2@gmail.com</p>
+        </div>
       </div>
     </section>
-    <section class="white-box">
-      <div class="article-container left">
-        <figure>
-          <img src="assets/images/git1.jpg" alt="Articulo 1">
-        </figure>
-        <div class="article-demo">
-          <h4>What is Git?</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-        </div>
-        <div class="btn-container">
-          <input class="btn" type="submit" value="Read more...">
-        </div>
+    <section class="white-box row">
+      <div class="col-sm-12">
+        <!-- <div class="col-sm-offset-1 col-sm-10"> -->
+          <div class="article-container col-sm-offset-1 col-sm-3">
+            <figure>
+              <img src="assets/images/git1.jpg" alt="Articulo 1">
+            </figure>
+            <div class="article-demo">
+              <h4>What is Git?</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+            <div class="btn-container">
+              <input class="btn" type="submit" value="Read more...">
+            </div>
+          </div>
+          <div class="article-container col-sm-offset-1 col-sm-3">
+            <figure>
+              <img src="assets/images/git2.jpg" alt="Articulo 2">
+            </figure>
+            <div class="article-demo">
+              <h4>Collaborative Work</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+            <div class="btn-container">
+              <input class="btn" type="submit" value="Read more...">
+            </div>
+          </div>
+          <div class="article-container col-sm-offset-1 col-sm-3">
+            <figure>
+              <img src="assets/images/git3.png" alt="Articulo 3">
+            </figure>
+            <div class="article-demo">
+              <h4>Customize your Git Bash</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+            <div class="btn-container">
+              <input class="btn" type="submit" value="Read more...">
+            </div>
+          </div>
+        <!-- </div> -->
       </div>
-      <div class="article-container left">
-        <figure>
-          <img src="assets/images/git2.jpg" alt="Articulo 2">
-        </figure>
-        <div class="article-demo">
-          <h4>Collaborative Work</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-        </div>
-        <div class="btn-container">
-          <input class="btn" type="submit" value="Read more...">
-        </div>
-      </div>
-      <div class="article-container left">
-        <figure>
-          <img src="assets/images/git3.png" alt="Articulo 3">
-        </figure>
-        <div class="article-demo">
-          <h4>Customize your Git Bash</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-        </div>
-        <div class="btn-container">
-          <input class="btn" type="submit" value="Read more...">
-        </div>
-      </div>
+
     </section>
     <footer class="page-color">
       <p>Copyright © Git Tricks 2017</p>
